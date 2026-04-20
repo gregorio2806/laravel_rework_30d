@@ -83,8 +83,6 @@
     </div>
 
 
-    {{-- <?php echo $slot; ?> --}}
-    {{ $slot }}
 </body>
 
 </html>
