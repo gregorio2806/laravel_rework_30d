@@ -10,7 +10,8 @@ class Job extends Model{
 
     protected $table = 'job_listings';
 
-    protected $fillable = ['title','salary'];
+    protected $fillable = ['employer_id','title','salary'];
+    // protected $guarded =[]; // to disable and enable all to be fillable no protection you can also add a specific fields you want to guard inside the array
 
     public function employer()
     {
